@@ -2,6 +2,7 @@ package etc;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Scanner;
@@ -24,7 +25,7 @@ public class BaekJoon1181 {
 		Scanner sc = new Scanner(System.in);
 
 		int arrayLength = Integer.parseInt(sc.nextLine());
-		ArrayList<String> list = new ArrayList(arrayLength);
+		ArrayList<String> list = new ArrayList<String>(arrayLength);
 
 		// 배열에 입력값 입력
 		for (int i = 0; i < arrayLength; i++) {
@@ -33,13 +34,23 @@ public class BaekJoon1181 {
 		// 중복제거
 		List<String> newList = list.stream().distinct().collect(Collectors.toList());
 
-		// 졍렬
-		Collections.sort(newList);
-		
-		// 정렬방법 수정필요.
+		// 길이순 졍렬
+		Collections.sort(newList, new Comparator<String>() {
+
+			@Override
+			public int compare(String o1, String o2) {
+				if (o1.length() > o2.length())
+					return 1;
+				else if (o1.length() < o2.length())
+					return -1;
+				else {
+					return o1.compareTo(o2);
+				}
+			}
+		});
 
 		// 출력
-		Iterator it = newList.iterator();
+		Iterator<String> it = newList.iterator();
 
 		while (it.hasNext()) {
 			Object obj = it.next();
