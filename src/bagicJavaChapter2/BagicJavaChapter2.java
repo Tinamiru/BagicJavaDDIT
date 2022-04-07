@@ -45,6 +45,7 @@ public class BagicJavaChapter2 {
 		 // @author JR - 작성자
 		 // @since 2022 - 날짜 설정
 		 // 와 같은 기능들이 있다.
+		
 	}
 
 }

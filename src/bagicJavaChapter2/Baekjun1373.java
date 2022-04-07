@@ -62,6 +62,7 @@ package bagicJavaChapter2;
 //				tenResult = revResult.charAt(j) * (pow); // revResult.charAt(j)는 밑 pow는 거듭제곱 (2^n)
 //			}
 			sc.close();
+			
 		}
 
 	}

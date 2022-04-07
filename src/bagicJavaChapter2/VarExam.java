@@ -9,8 +9,9 @@ public class VarExam {
 		byte age = 10; // 변수의 선언 및 초기화
 		String name = "홍길동";
 
-		byte a;
-		a = 10;
+		System.out.println("나이: " + age + "이름: " + name);
+
+		byte a = 10;
 		int b; // 변수 선언.
 		b = 100; // 변수의 초기화.
 
@@ -50,15 +51,12 @@ public class VarExam {
 		int minute = 5;
 
 //		변수의 연산
-		
+
 		System.out.println(hour + "시간 " + minute + "분");
 
 		int totalMinute = (hour * 60) + minute;
 
 		System.out.println("총 " + totalMinute + "분");
-		System.out.println("총 " + totalMinute + "분");
-		
-		
 
 	}
 
