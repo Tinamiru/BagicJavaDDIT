@@ -56,6 +56,7 @@ public class VarExam {
 		int totalMinute = (hour * 60) + minute;
 
 		System.out.println("총 " + totalMinute + "분");
+		System.out.println("총 " + totalMinute + "분");
 		
 		
 
