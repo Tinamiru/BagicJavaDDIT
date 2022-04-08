@@ -46,8 +46,10 @@ package bagicJavaChapter2;
 			for (int i = input.length() - 1; i >= 0; i--) { // 여기 뭔가 이상함.
 				revResult += input.charAt(i);
 			}
-
+			
 			System.out.println("\n뒤집은 결과 : " + revResult);
+			int valuePI = Integer.parseInt(revResult);
+			System.out.println("숫자로 변환 : " + valuePI); // 숫자로 변환.
 			System.out.println("자릿수 : " + numLength + "\n");
 
 			for (int j = 0; j < numLength; j++) {// pow 값을 도출성공.
