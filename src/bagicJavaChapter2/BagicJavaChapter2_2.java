@@ -1,6 +1,6 @@
 package bagicJavaChapter2;
 
-public class BagicJavaChapter2 {
+public class BagicJavaChapter2_2 {
 
 	public static void main(String[] args) {
 //		지난시간 기계어에 이어 자바를 CMD환경에서 출력하는 과정까지.

@@ -1,6 +1,6 @@
-package bagicJavaChapter3;
+package bagicJavaChapter2;
 
-public class BagicJavaChapter3 {
+public class BagicJavaChapte2_3 {
 
 	public static void main(String[] args) {
 //		지난시간.

@@ -1,4 +1,4 @@
-package bagicJavaChapter3;
+package bagicJavaChapter2;
 
 public class OperationsPromotionExample {
 	public static void main(String[] args) {

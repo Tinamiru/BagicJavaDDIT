@@ -1,4 +1,4 @@
-package bagicJavaChapter3;
+package bagicJavaChapter2;
 
 public class PromotionExam {
 

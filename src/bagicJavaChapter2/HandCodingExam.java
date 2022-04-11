@@ -1,4 +1,4 @@
-package bagicJavaChapter3;
+package bagicJavaChapter2;
 
 public class HandCodingExam {
 	public static void main(String[] args) {
@@ -7,8 +7,7 @@ public class HandCodingExam {
 		float var2 = 1.8f;
 		double var3 = 2.5;
 		String var4 = "3.9";
-		double str = Double.parseDouble(var4);
-		int result = (int) var1 + (int) var2 + (int) var3 + (int) str + 1;
+		int result = (int) (var1 + (int) var2 + var3 + Double.parseDouble(var4));
 		System.out.println(result);
 
 		// 연산자.

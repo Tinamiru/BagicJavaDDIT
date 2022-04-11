@@ -16,9 +16,9 @@ public class Baekjun1373 {
 		String reverce = "";
 
 		int numLength = input.length();
-		int pow = 2; // 2진수
+		int pow = 2;
 		int twoNum = 0;
-		int result = 0;
+		int tenResult = 0;
 
 		for (int i = numLength - 1; i >= 0; i--) {
 			reverce += input.charAt(i);
@@ -33,20 +33,18 @@ public class Baekjun1373 {
 			}
 
 			if (twoNum != 0) {
-				result = result + (twoNum * pow);
+				tenResult = tenResult + (twoNum * pow);
 			}
 			if (j != 0) {
 				pow = pow * 2;
 			}
 		}
-		result = result - 1;
-		System.out.println("10진수 : " + result);
+		tenResult = tenResult - 1;
+		System.out.println("10진수 : " + tenResult);
+		System.out.println(127/8);
+		
+		
 
-		int division = 0;
-		int eightResult = 0;
-		division = result % 8;
-
-		System.out.println("8진수 : " + division);
 		sc.close();
 	}
 
