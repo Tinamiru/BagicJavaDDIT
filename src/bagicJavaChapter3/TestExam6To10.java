@@ -23,18 +23,16 @@ public class TestExam6To10 {
 		double first = scanner.nextDouble();
 		System.out.print("두번째 수: ");
 		double second = scanner.nextDouble();
-		double numResult = first / second;
-		String result = "결과:" + numResult;
-		String infiny = "결과:무한대";
-		String aOrB = (second > 0) ? result : infiny;
-		System.out.println(aOrB + "\n");
+		
+		String aOrB = (second > 0) ? String.valueOf(first / second) : "무한대";
+		System.out.println("결과: " + aOrB + "\n");
 
 		System.out.println("10번문제");
 		int var1 = 10;
 		int var2 = 3;
 		int var3 = 14;
-		double var4 = var1 * var1 * Double.parseDouble(var2+"."+var3);
-		System.out.println("원의 넓이:"+var4);
-		
+		double var4 = var1 * var1 * Double.parseDouble(var2 + "." + var3);
+		System.out.println("원의 넓이:" + var4);
+
 	}
 }
