@@ -1,14 +1,19 @@
 package bagicJavaChapter4_2_Looping;
 
+import java.util.Scanner;
+
 public class CountingStarTreeExam {
 	public static void main(String[] args) {
-		for (int i = 0; i < 9; i++) {
-				for (int j = 8; j > i; j-=2) {
-					System.out.print("1");
-				}
-				for (int k = 0; k <= i; k+=2) {
-					System.out.print("*");
-				}
+		Scanner sc = new Scanner(System.in);
+		int num = sc.nextInt();
+		String star = "*";
+
+		for (int i = 1; i < num + 1; i++) {
+			for (int j = num; j > i; j--) {
+				System.out.print(" ");
+			}
+			System.out.print(star);
+			star += "**";
 			System.out.println();
 		}
 	}
