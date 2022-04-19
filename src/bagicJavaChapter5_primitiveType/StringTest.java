@@ -3,6 +3,7 @@ package bagicJavaChapter5_primitiveType;
 import java.util.Scanner;
 
 public class StringTest {
+	String str = ""; 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		String str1 = scanner.nextLine();

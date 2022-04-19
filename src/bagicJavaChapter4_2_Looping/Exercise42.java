@@ -7,7 +7,7 @@ public class Exercise42 {
 
 		Scanner scanner = new Scanner(System.in);
 
-		System.out.println("월을 입력하세요(1~12)");
+		System.out.print("월을 입력하세요(1~12)");
 		int input = scanner.nextInt();
 		int switchNum = 0;
 
