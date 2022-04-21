@@ -1,4 +1,4 @@
-package bagicJavaChapter5_primitiveType;
+package bagicJavaChapter5_1_PrimitiveType;
 
 public class ArrayCreateByNewExam {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package bagicJavaChapter5_primitiveType;
+package bagicJavaChapter5_1_PrimitiveType;
 
 public class ReferenceExam {
 //	String str; // null이 생략되어있음.
