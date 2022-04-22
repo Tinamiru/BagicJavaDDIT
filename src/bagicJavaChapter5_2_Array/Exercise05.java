@@ -1,4 +1,5 @@
-package bagicJavaChapter5_1_PrimitiveType;
+package bagicJavaChapter5_2_Array;
+
 
 public class Exercise05 {
 	public static void main(String[] args) {

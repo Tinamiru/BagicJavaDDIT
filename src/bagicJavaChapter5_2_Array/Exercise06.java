@@ -1,4 +1,4 @@
-package bagicJavaChapter5_1_PrimitiveType;
+package bagicJavaChapter5_2_Array;
 
 import java.util.Scanner;
 
