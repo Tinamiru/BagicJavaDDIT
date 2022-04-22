@@ -1,4 +1,4 @@
-package bagicJavaChapter5_1_PrimitiveType;
+package bagicJavaChapter5_2_Array;
 
 public class ArrayLengExam {
 	public static void main(String[] args) {
