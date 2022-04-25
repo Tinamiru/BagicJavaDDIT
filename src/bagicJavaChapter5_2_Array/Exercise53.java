@@ -26,25 +26,26 @@ public class Exercise53 {
 		String user = scanner.nextLine();
 		String result = "";
 
-		if (user != "가위" || user != "바위" || user != "보") {
+		if (user.equals("가위") || user.equals("바위") || user.equals("보")) {
+			String com = ran();
+
+			if (user.equals(com)) {
+				result = "비김";
+			} else if (user.equals("바위") && com.equals("가위") || user.equals("가위") && com.equals("보")
+					|| user.equals("보") && com.equals("바위")) {
+				result = "승리";
+			} else {
+				result = "패배";
+			}
+			System.out.println("게이머: " + user);
+			System.out.println("인공지능 컴퓨터: " + com);
+			System.out.printf("결과: %s!", result);
+
+		} else {
 			System.out.println("가위 바위 보만 입력하십시오.");
 			return;
 		}
-
-		String com = ran();
-
-		if (user.equals(com)) {
-			result = "비김";
-		} else if (user.equals("바위") && com.equals("가위") || user.equals("가위") && com.equals("보")
-				|| user.equals("보") && com.equals("바위")) {
-			result = "승리";
-		} else {
-			result = "패배";
-		}
-
-		System.out.println("게이머: " + user);
-		System.out.println("인공지능 컴퓨터: " + com);
-		System.out.printf("결과: %s!", result);
-
+		scanner.close();
+		
 	}
 }
