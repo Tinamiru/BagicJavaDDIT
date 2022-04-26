@@ -1,5 +1,6 @@
 package bagicJavaChapter5_2_Array;
 
+import java.util.Arrays;
 import java.util.Random;
 
 public class Exercise52 {
@@ -16,7 +17,6 @@ public class Exercise52 {
 					array[j] = random.nextInt(45) + 1;
 				}
 			}
-			System.out.println(array[i]);
-		}
+		}System.out.println(Arrays.toString(array));
 	}
 }
