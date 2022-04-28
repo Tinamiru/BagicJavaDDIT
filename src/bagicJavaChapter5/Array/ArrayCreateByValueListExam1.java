@@ -1,4 +1,4 @@
-package bagicJavaChapter5_2_Array;
+package bagicJavaChapter5.Array;
 
 public class ArrayCreateByValueListExam1 {
 	public static void main(String[] args) {

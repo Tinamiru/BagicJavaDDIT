@@ -8,9 +8,9 @@ public class AdvancedForExam {
 		for (int score : scores) {
 			sum = sum + score;
 		}
-		System.out.println("점수통합 = " + sum);
+		System.out.println("�젏�닔�넻�빀 = " + sum);
 
 		double avg = (double) sum / scores.length;
-		System.out.println("점수평균 = " + avg);
+		System.out.println("�젏�닔�룊洹� = " + avg);
 	}
 }

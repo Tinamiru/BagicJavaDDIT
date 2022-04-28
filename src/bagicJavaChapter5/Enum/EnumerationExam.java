@@ -1,4 +1,4 @@
-package bagicJavaChapter5_3_Enum;
+package bagicJavaChapter5.Enum;
 
 import java.util.Calendar;
 

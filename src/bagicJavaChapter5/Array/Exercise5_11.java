@@ -1,4 +1,4 @@
-package bagicJavaChapter5_2_Array;
+package bagicJavaChapter5.Array;
 
 public class Exercise5_11 {
 	public static void main(String[] args) {

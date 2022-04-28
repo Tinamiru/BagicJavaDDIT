@@ -1,4 +1,4 @@
-package bagicJavaChapter5_2_Array;
+package bagicJavaChapter5.Array;
 
 public class ArrayReferenceObjectExam {
 	public static void main(String[] args) {
