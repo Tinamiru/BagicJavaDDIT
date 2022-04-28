@@ -1,4 +1,4 @@
-package bagicJavaChapter4_2_Looping;
+package bagicJavaChapter4.Looping;
 
 import java.util.Random;
 import java.util.Scanner;

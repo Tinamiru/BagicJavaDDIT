@@ -1,4 +1,4 @@
-package bagicJavaChapter4;
+package bagicJavaChapter4.IfAndSwitch;
 
 import java.util.Random;
 

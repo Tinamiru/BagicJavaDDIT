@@ -1,4 +1,4 @@
-package bagicJavaChapter4;
+package bagicJavaChapter4.IfAndSwitch;
 
 public class IfelseExam {
 	public static void main(String[] args) {

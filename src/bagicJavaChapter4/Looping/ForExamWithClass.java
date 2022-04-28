@@ -1,4 +1,4 @@
-package bagicJavaChapter4_2_Looping;
+package bagicJavaChapter4.Looping;
 
 class ForExam {
 	static void print1To10Exam(int parameter) {

@@ -1,4 +1,4 @@
-package bagicJavaChapter4;
+package bagicJavaChapter4.IfAndSwitch;
 
 public class SwitchStringExam {
 	public static void main(String[] args) {

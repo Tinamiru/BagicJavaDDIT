@@ -1,4 +1,4 @@
-package bagicJavaChapter4_2_Looping;
+package bagicJavaChapter4.Looping;
 
 public class BreakOutterExam {
 	public static void main(String[] args) {
