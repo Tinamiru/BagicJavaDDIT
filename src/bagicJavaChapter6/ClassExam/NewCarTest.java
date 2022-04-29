@@ -27,8 +27,8 @@ public class NewCarTest {
 		System.out.println("myCar의 색: " + yourCar.getColor());
 		System.out.println("차의 최대 속력: " + NewCar.getMaxSpeed() + "km/h");
 
-		System.out.print("첫 번째 speedUP(-100.0km/h): ");
-		if (yourCar.speedUp(-100.0)) {
+		System.out.print("첫 번째 speedUP(100.0km/h): ");
+		if (yourCar.speedUp(100.0)) {
 			System.out.print("속도 변경 가능,");
 		} else {
 			System.out.print("속도 변경 불가능,");
