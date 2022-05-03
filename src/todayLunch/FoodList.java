@@ -8,7 +8,7 @@ public class FoodList {
 		FoodDB foodDB = new FoodDB();
 		Random random = new Random();
 		int ranNum = random.nextInt(47)+1;
-		System.out.print(random + ". ");
+		System.out.print(random+ ". ");
 		foodDB.printName(ranNum);
 	}
 
