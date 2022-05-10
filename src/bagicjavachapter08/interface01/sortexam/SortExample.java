@@ -1,4 +1,4 @@
-package bagicjavachapter08.interface01;
+package bagicjavachapter08.interface01.sortexam;
 
 import java.util.Arrays;
 

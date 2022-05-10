@@ -1,4 +1,4 @@
-package bagicjavachapter08.interface01;
+package bagicjavachapter08.interface01.sortexam;
 
 public class Student implements Comparable<Student> {
 	private String name;
