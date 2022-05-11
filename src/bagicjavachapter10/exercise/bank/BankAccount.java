@@ -30,11 +30,7 @@ public abstract class BankAccount {
 	public boolean transfer(int amount, BankAccount otherAccount) {
 		if (amount < 0 || amount > balance) {
 			throw new IllegalArgumentException();
-		} else if (otherAccount == null) {
-			throw new NullPointerException();
-		}
-
-		if (balance > amount) {
+		} else if (balance > amount) {
 			balance -= amount;
 			otherAccount.balance += amount;
 			return true;
