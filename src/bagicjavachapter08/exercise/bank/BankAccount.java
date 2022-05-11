@@ -36,10 +36,7 @@ public abstract class BankAccount {
 		return false;
 	}
 
-	public String getAccountType() {
-		return null;
-		
-	}
+	abstract String getAccountType();
 	
 	@Override
 	public String toString() {

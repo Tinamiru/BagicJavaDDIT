@@ -1,5 +1,7 @@
 package bagicjavachapter08.exercise.book;
 
+import java.util.Objects;
+
 public abstract class Book {
 	private int number;
 	private String title;
@@ -9,11 +11,11 @@ public abstract class Book {
 	public Book(String title, String author) {
 		this.title = title;
 		this.author = author;
-		this.number += countOfBooks++;
+		this.number = countOfBooks++;
 	}
 
 	public int getNumber() {
-		return number+1;
+		return number + 1;
 	}
 
 	public void setNumber(int number) {
@@ -37,12 +39,20 @@ public abstract class Book {
 	}
 
 	public abstract int getLateFee(int lateDays);
-	
-	// equals overriding spot
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(author, title);
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		Book other = (Book) obj;
+		return Objects.equals(author, other.author) && Objects.equals(title, other.title);
+	}
 
 	@Override
 	public String toString() {
 		return "관리번호 " + getNumber() + "번, 제목: " + title + ", 작가: " + author + "(일주일 연체료: " + getLateFee(7) + "원)";
 	}
-
-}
+} 

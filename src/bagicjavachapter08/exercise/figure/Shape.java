@@ -2,13 +2,9 @@ package bagicjavachapter08.exercise.figure;
 
 public abstract class Shape implements Comparable<Shape> {
 
-	public double area() {
-		return 0.0;
-	}
+	abstract double area();
 
-	public double perimeter() {
-		return 0.0;
-	}
+	abstract double perimeter();
 
 
 	@Override
