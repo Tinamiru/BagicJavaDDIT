@@ -3,15 +3,26 @@ package etc;
 import java.util.Scanner;
 
 // 클래스를 활용하여 자바 기본 클래스를 호출하지 않고 2진수를 10진수와 8진수로 변환하여보자.
-class calToDecimal {
-	int par;
-	int toTen;
+public class TwoToEightForNotUseClass {
+	static int par;
+	static int toTen;
 
-	public void input(int parameter) { // 인풋.
-		this.par = parameter;
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+
+		System.out.print("2진수를 입력하세요:");
+		int input = scanner.nextInt();
+
+		input(input);
+		ten();
+		eight();
 	}
 
-	public void ten() {
+	public static void input(int parameter) { // 인풋.
+		par = parameter;
+	}
+
+	public static void ten() {
 		String strVer = String.valueOf(par);
 		String input = strVer;
 		String reverce = "";
@@ -39,11 +50,10 @@ class calToDecimal {
 				pow = pow * 2;
 			}
 		}
-		System.out.println(tenResult);
 		toTen = tenResult;
 	}
 
-	public void eight() {
+	public static void eight() {
 		String bowl = "";
 		int tenSRC1 = toTen;
 		int tenSRC2 = toTen;
@@ -64,21 +74,5 @@ class calToDecimal {
 			revResult += revInput.charAt(i);
 		}
 		System.out.println(revResult);
-	}
-}
-
-public class TwoToEightForNotUseClass {
-	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
-		calToDecimal ctd = new calToDecimal();
-		
-		System.out.print("2진수를 입력하세요:");
-		int input = scanner.nextInt();
-				
-		ctd.input(input);
-		System.out.print("10진수 : ");
-		ctd.ten();
-		System.out.print("8진수 : ");
-		ctd.eight();
 	}
 }
