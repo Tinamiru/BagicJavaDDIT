@@ -1,4 +1,4 @@
-package bagicjavachapter11;
+package bagicjavachapter11.lang;
 
 public class SystemTimeExam {
 	public static void main(String[] args) {
