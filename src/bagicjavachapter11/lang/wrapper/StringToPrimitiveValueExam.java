@@ -1,4 +1,4 @@
-package bagicjavachapter11.lang;
+package bagicjavachapter11.lang.wrapper;
 
 public class StringToPrimitiveValueExam {
 	public static void main(String[] args) {
