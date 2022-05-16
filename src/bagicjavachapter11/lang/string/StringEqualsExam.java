@@ -1,6 +1,6 @@
 package bagicjavachapter11.lang;
 
-public class StrinmgEqualsExam {
+public class StringEqualsExam {
 	public static void main(String[] args) {
 		String strVar1 = new String("신민철");
 		String strVar2 = "신민철";
