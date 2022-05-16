@@ -1,4 +1,4 @@
-package bagicjavachapter11.lang;
+package bagicjavachapter11.lang.string;
 
 public class StringEqualsExam {
 	public static void main(String[] args) {

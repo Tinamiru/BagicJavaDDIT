@@ -1,4 +1,4 @@
-package bagicjavachapter11.lang;
+package bagicjavachapter11.lang.string;
 
 import java.io.UnsupportedEncodingException;
 
